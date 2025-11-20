@@ -78,6 +78,8 @@ function mathOperations(num1, num2, op) {
     }
 }
 
+const cube = (num) => {return num * num}
+
 
 
 console.log(2,3, multiply)
@@ -90,6 +92,14 @@ const isPositive = (num) => {
     } else {
         return "Number equals to 0"
     }
+}
+
+
+const isDivisibleByThree = (num) => {if (number % 3 == 0) {
+    return true
+} else {
+    return false
+}
 }
 
 
